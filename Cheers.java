@@ -21,11 +21,16 @@ public class Cheers {
             System.out.println("Give me an " + c+ ": " + c + "!");    
          }   i++;  }
          System.out.println("What does that spell?");
-         String bangs = "";
-         for (int q = 0; q < s.length(); q++) { 
-         bangs += "!";}
-         for (int t = 0; t < times; t++ ){
-         System.out.println(s + bangs); }
+         String wordUpper = s;
+         StringBuilder bangs = new StringBuilder();
+         for (int i2 = 0; i2 < times; i2++) {
+         bangs.append('!');
+}        for (int t = 0; t < times; t++) {
+          System.out.println(wordUpper + bangs.toString());
+         //for (int q = 0; q < times; q++) { 
+        // bangs += "!";}
+       //  for (int t = 0; t < times; t++ ){
+       //  System.out.println(s + bangs); }
 
 
         }
