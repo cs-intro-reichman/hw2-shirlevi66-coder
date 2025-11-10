@@ -2,5 +2,30 @@
 public  class  TestRandom {
 	public static void main(String[]  args) {
 	    // Replace this comment with your code
+
+	String index = args[0];
+	int test = Integer.parseInt(index);
+
+	int lower = 0;
+	int greater = 0;
+
+	for (int i=0; i < test; i++) {
+	double r = Math.random();
+	if (r > 0.5) {
+		greater++;
+	} else { 
+		lower++;
 	}
+	}
+	double ratio;
+	if (greater ==0) {
+	ratio = Double.POSITIVE_INFINITY;
+	} else {
+		ratio = (double) lower/greater;
+	}
+
+	System.out.println("> 0.5: " + greater + " times");
+	System.out.println("<= 0.5: " + lower + " times");
+	System.out.println("Ratio: " + ratio);
+}
 }
