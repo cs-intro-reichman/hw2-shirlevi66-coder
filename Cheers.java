@@ -23,7 +23,7 @@ public class Cheers {
          System.out.println("What does that spell?");
          String wordUpper = s;
          StringBuilder bangs = new StringBuilder();
-         for (int i2 = 0; i2 < times; i2++) {
+         for (int z = 0; z < n; z++) {
          bangs.append('!');
 }        for (int t = 0; t < times; t++) {
           System.out.println(wordUpper + bangs.toString());
