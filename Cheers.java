@@ -16,9 +16,9 @@ public class Cheers {
         while (i < n){
         char c = s.charAt(i);
         if (l.indexOf(c) == -1){
-           System.out.println("Give me a " + c + ": " + c );
+           System.out.println("Give me a " + c + ": " + c + "!");
          } else  {
-            System.out.println("Give me an " + c+ ": " + c );    
+            System.out.println("Give me an " + c+ ": " + c + "!");    
          }   i++;  }
          System.out.println("What does that spell?");
          String bangs = "";
