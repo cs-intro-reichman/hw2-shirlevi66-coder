@@ -27,13 +27,8 @@ public class Cheers {
          bangs.append('!');
 }        for (int t = 0; t < times; t++) {
           System.out.println(wordUpper + bangs.toString());
-         //for (int q = 0; q < times; q++) { 
-        // bangs += "!";}
-       //  for (int t = 0; t < times; t++ ){
-       //  System.out.println(s + bangs); }
-
-
         }
-        
-        }
+      
+      }
+      }
 
