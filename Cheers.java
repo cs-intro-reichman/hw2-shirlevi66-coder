@@ -1,9 +1,3 @@
-//feedback
-
-/*
-Great work boaz!
-*/
-
 
 // Prints a crowd cheering output.
 public class Cheers {
@@ -18,17 +12,17 @@ public class Cheers {
         char c = s.charAt(i);
         char cUpper = upper.charAt(i);
         if (l.indexOf(cUpper) == -1){
-           System.out.println("Give me a " + cUpper + ": " + c + "!");
+           System.out.println("Give me a " + cUpper + ": " + cUpper + "!");
          } else  {
-            System.out.println("Give me an " + cUpper + ": " + c + "!");    
+            System.out.println("Give me an " + cUpper + ": " + cUpper + "!");    
          }   i++;  }
          System.out.println("What does that spell?");
-         String wordUpper = s;
+         //String wordUpper = s;
          StringBuilder bangs = new StringBuilder();
          for (int z = 0; z < n; z++) {
          bangs.append('!');
 }        for (int t = 0; t < times; t++) {
-          System.out.println(s + bangs.toString());
+          System.out.println(upper + "!!!");
         }
       
       }
