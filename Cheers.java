@@ -12,7 +12,7 @@ public class Cheers {
         char c = s.charAt(i);
         char cUpper = upper.charAt(i);
         if (l.indexOf(cUpper) == -1){
-           System.out.println("Give me a " + cUpper + ": " + cUpper + "!");
+           System.out.println("Give me a  " + cUpper + ": " + cUpper + "!");
          } else  {
             System.out.println("Give me an " + cUpper + ": " + cUpper + "!");    
          }   i++;  }

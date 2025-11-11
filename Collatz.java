@@ -3,16 +3,21 @@ public class Collatz {
 	public static void main(String args[]) {
 	    int num = Integer.parseInt(args[0]);
 		int count = 0;
-		while (num != 1){
-			System.out.print(num + " ");
-			if (num % 2 == 00){
-				num = num / 2;
+		String c = args[1];
+		int summary = count;
+		while (c.equals("v")|| c.equals ("v")){
+		for (int i = 1; i<num; i++){
+			System.out.print(i + " ");
+			if (i % 2 == 00){
+				i = i / 2;
 			} else{
-				num= 3 * num + 1;
-			} count++;	
-		} 
+				i= 3 * i + 1;
+			} 	
+		} } 
+		else { System.out.println("Every one of the first " + count + " hailstone sequences reached 1.");
+		}
 		System.out.println(1);
-		System.out.println("Every one of the first 100 hailstone sequences reached 1.")
+		//System.out.println("Every one of the first " + count + " hailstone sequences reached 1.");
 
 		
 		
