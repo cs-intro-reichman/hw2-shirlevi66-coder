@@ -20,7 +20,7 @@ public class Cheers {
         if (l.indexOf(cUpper) == -1){
            System.out.println("Give me a " + cUpper + ": " + c + "!");
          } else  {
-            System.out.println("Give me an " + cUpper+ ": " + c + "!");    
+            System.out.println("Give me an " + cUpper + ": " + c + "!");    
          }   i++;  }
          System.out.println("What does that spell?");
          String wordUpper = s;
