@@ -11,7 +11,7 @@ public class Cheers {
         String s = args[0];
         int times = Integer.parseInt(args[1]);
         int n = s.length();
-        String upper = s.toUpperCase();
+        String upper = s.toUpperCase(); 
         String l = "AEFHILMNORSX";
         int i = 0;
         while (i < n){
@@ -28,7 +28,7 @@ public class Cheers {
          for (int z = 0; z < n; z++) {
          bangs.append('!');
 }        for (int t = 0; t < times; t++) {
-          System.out.println(wordUpper + bangs.toString());
+          System.out.println(s + bangs.toString());
         }
       
       }
