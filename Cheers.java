@@ -22,7 +22,7 @@ public class Cheers {
          } else  {
             System.out.println("Give me an " + cUpper+ ": " + c + "!");    
          }   i++;  }
-         System.out.println("What does that spell?");
+         System.out.println("What does that spell?!");
          String wordUpper = s;
          StringBuilder bangs = new StringBuilder();
          for (int z = 0; z < n; z++) {
